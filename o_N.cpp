@@ -12,7 +12,7 @@ int main()
     }
     int s=0;
     for(int i=0;i<n;i++){
-        s+=a[i];
+        s+=a[i]; 
 //ei loop er complexity holo--> o(n)
     }
     // so total program er complexity holo --> o(n)
