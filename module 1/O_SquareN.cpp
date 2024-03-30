@@ -4,7 +4,7 @@ int main()
 {
     // All kind of loop er complexity holo o(n)
 
-    // But  Nested Loop jodi hoy tahole loop er Complexity hobe o(n)
+    // But Nested Loop jodi hoy tahole loop er Complexity hobe o(n)
     // mul kotha holo nested loop er complexity  multipication  hoy
 
     int n;
@@ -16,9 +16,9 @@ int main()
         // eitar comexity holo o(n) akn ei atar vitore jodi arekta loop dei tahole oi loop er o compklexity hobe o(n)
         for (int i = 1; i < n; i++)
         {
-            cout << " j = " << j << " & i = " << i << endl;
+            cout << " j = " << j << "  & i = "<< i << endl;
 
-            //  ei loop er complxity  holo o(n)
+            // ei loop  her complxity  holo o(n)
         }
 
         cout << endl;
