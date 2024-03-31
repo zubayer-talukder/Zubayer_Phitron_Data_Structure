@@ -18,7 +18,7 @@ int main()
         {
             cout << " j = " << j << " & i = " << i << endl;
 
-            // ei loop er complxity  holo o(n)
+            //  ei loop er complxity  holo o(n)
         }
 
         cout << endl;
