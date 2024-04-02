@@ -1,6 +1,6 @@
 Week 1: Introduction To Data Structure
-    module 1    :- Time Complexity and space Complexity (3/9)
-    module 2    :- STL Vector
+    module 1    :- Time Complexity and space Complexity (Finished)
+    module 2    :- STL Vector       (Finished)
     module 2.5  :- Practice Day 1
     module 3    :- Prefix sum & Binary Search
     module 3.5  :- Practice Day 2
