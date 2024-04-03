@@ -1,0 +1,9 @@
+today we will talk about STL
+
+STL --> Standard Template Library
+
+Dynamic array is called as a Vector
+
+
+Vector Syntax------>>>  vector<Data_type> Name
+
