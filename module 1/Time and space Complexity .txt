@@ -1,0 +1,10 @@
+time complexity  in 1s_____--->> 
+
+Rank                                data size in 1s
+1.            O(1)  
+2.          O(log N)                    --> 10^18
+3.          O(sqrt N)                   --> 10^14
+4.          O(N)                        --> 10^7
+5.          O(N log N)                  --> 10^5
+6.          O(Squr(N))  or O(N x M )    --> 10^3
+ 
