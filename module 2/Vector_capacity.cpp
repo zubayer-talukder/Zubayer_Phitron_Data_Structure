@@ -33,7 +33,7 @@ int main()
    
 
 //     V.push_back(2);
-//     cout << V.capacity() << endl;
+//     cout << V.capacity() <<  endl;
 //     // output 4
 // // highest 4 ta vlue rakhte pare but valu ase  4 ta 
 
