@@ -1,4 +1,7 @@
 *.exe
 input.txt
 output.txt
-.vscode
+.vscode/
+*.bin
+*.cph
+tempCodeRunnerFile.cpp
