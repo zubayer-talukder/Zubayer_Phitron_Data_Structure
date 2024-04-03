@@ -7,4 +7,14 @@ Rank                                data size in 1s
 4.          O(N)                        --> 10^7
 5.          O(N log N)                  --> 10^5
 6.          O(Squr(N))  or O(N x M )    --> 10^3
+
+
+Space complexity
+--------------------------------------------------
+ Input space + Auxilary space = Space complexity
+
+ int s = a+b;
+ 
+ Auxilary space is s here
+ and Input space is a+b
  
