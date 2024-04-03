@@ -24,7 +24,7 @@ int main()
     {
         cout << y << " ";
     }
-    cout<<endl;
+    cout << endl;
 
     // output:
     // 5
@@ -36,7 +36,24 @@ int main()
     {
         cout << y << " ";
     }
+    cout << endl;
     // output
-    // 32 74 85 
+    // 32 74 85
+
+    // vector clear::
+    x.clear(); // clear just element gula delete korer memory theke delete kore na
+
+    for (int y : x)
+    {
+        cout << y << " ";
+    } // ei jonno ei loop theke kono return dey nai karon holo je ei loop er element gula delete kora hoise
+
+
+// memeory theke access korar upay holo
+cout<<x[2];
+// return 85 dise tai eita proved je memory thrke  delete kore na 
+// v.clear() ei function ta
+
+
     return 0;
 }
