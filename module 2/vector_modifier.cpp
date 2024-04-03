@@ -41,13 +41,21 @@ int main()
     // {
     //     cout << x[k] << " ";
     // }
-    
 
-    // replace function: akta target e akta value diye repalce kore  
-    vector<int> p={10,25,4,59,4,47,98,36,4,54,6,9};
-    replace(p.begin(),p.end(),4,100);
-for(int y=000;y<p.size();y++){
-    cout<<p[y]<< " ";
-}
-        return 0;
+    // replace function: akta target e akta value diye repalce kore
+    //     vector<int> p={10,25,4,59,4,47,98,36,4,54,6,9};
+    //     replace(p.begin(),p.end(),4,100);
+    // for(int y=000;y<p.size();y++){
+    //     cout<<p[y]<< " ";
+    // }
+
+    vector<int> p = {10, 25, 4, 59, 4, 47, 98, 36, 4, 54, 6, 9};
+    auto it = find(p.begin(), p.end(), 4);
+    if(it==p.end())cout<<"NoT Found";
+    else cout<<"Found ";
+    // for (int y = 000; y < p.size(); y++)
+    // {
+    //     cout << p[y] << " ";
+    // }
+    return 0;
 }
