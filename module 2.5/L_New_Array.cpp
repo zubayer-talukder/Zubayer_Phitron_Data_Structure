@@ -18,9 +18,10 @@ cin>>arr1[i];
     for(int i=0;i<n;i++){
 cin>>arr2[i];
     }
- //
+
+
 vector<int>ans (arr2);
-ans.insert(ans.end() ,arr1.begin(),arr1.end());
+ans.insert(ans.end(),arr1.begin(),arr1.end());
 for(int i=0;i<ans.size();i++){
 cout<< ans[i]<<" "; 
 }
