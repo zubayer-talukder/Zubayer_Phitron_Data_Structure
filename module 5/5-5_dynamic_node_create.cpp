@@ -21,12 +21,10 @@ int main()
 
     head->next = a; // eitar mane holo head object er adress er vitore a er value ami assign kore dici
 
-
-
-    // just printing 
-    cout<<head->value<<endl;
-    cout<<head->next->value<< endl; // head diyaii ami 'a' object er value print korte parbo
-    // a value arek vabe o print kora jay oita holo 
-    cout<<a->value<<endl;
-    return 0;
+    // just printing
+    cout << head->value << endl;
+    cout << head->next->value << endl; // head diyaii ami 'a' object er value print korte parbo
+    // a value arek vabe o print kora jay oita holo
+    cout << a->value << endl;
+    return 0 ;
 }
