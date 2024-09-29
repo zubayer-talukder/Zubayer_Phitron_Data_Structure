@@ -33,11 +33,10 @@ int main()
     cout << a.next->value << endl;
     // it can be write this way also
     cout << (*a.next).value << endl; // same result paici ami
-
-    // kind of dereferance kora : b er address e giya b er value print koro  ,
-    
     cout << b.value << endl;
+    // kind of dereferance kora : b er address e giya b er value print koro  ,
+
     cout << b.next->value << endl;
-    
+
     return 0;
 }
