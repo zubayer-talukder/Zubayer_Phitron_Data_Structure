@@ -37,12 +37,12 @@ int main()
             // it will increase next head value
         } */
 
-    Node *temp; // node er instance temp toiri korlam jate pore amra kaj korte pari
-    temp = head; // temp address er vitore head er address assign korci 
+    Node *temp;  // node er instance temp toiri korlam jate pore amra kaj korte pari
+    temp = head; // temp address er vitore head er address assign korci
     while (temp != NULL)
     {
-        cout <<temp->value<<endl;
-        temp=temp->next; 
+        cout << temp->value << endl;
+        temp = temp->next;
     }
 
     return 0;
